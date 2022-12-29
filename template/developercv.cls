@@ -310,11 +310,9 @@
 \newcommand{\cvsect}[1]{% The only parameter is the section text
 	\vspace{\baselineskip} % Whitespace before the section title
 	\setlength{\@tempdima}{\dimexpr\wd0}
-	\if@square
+
 		\colorbox{accentbackground}{\textcolor{white}{\MakeUppercase{\scriptsize \textbf{#1}}}} \vspace{-2\baselineskip} \hspace{1\@tempdima} \textcolor{accentbackground!85}{\hdashrule{\textwidth minus 1\@tempdima}{0.8pt}{0.25ex}} \hfill \vspace{0pt} \\
-	\else
-		\mybox{\textcolor{white}{\MakeUppercase{\scriptsize \textbf{#1}}}} \vspace{-2\baselineskip} \hspace{1\@tempdima}\textcolor{accentbackground!85}{\hdashrule{0.95\textwidth minus 1.1\@tempdima}{0.8pt}{0.25ex}} \hspace{-3.8mm} \colorbox{accentbackground}{\textcolor{white}{\fontsize{3}{4}\selectfont\ratingmarker}}\hfill\vspace{0pt}\\
-	\fi
+
 }
 
 \newcommand{\tagbox}[1]{% The only parameter is the section text
