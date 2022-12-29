@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2022.12.29)  29 DEC 2022 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2022.12.29)  29 DEC 2022 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,9 +8,9 @@ LaTeX2e <2018-12-01>
 (./template/developercv.cls
 
 LaTeX Warning: You have requested document class `template/developercv',
-               but the document class provides `./template/developercv'.
+               but the document class provides `developercv'.
 
-Document Class: ./template/developercv 2021/02/21 Developer CV class v2.0
+Document Class: developercv 2021/02/21 Developer CV class v2.0
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/size9.clo
@@ -175,46 +175,17 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+Package graphics Info: Driver file: dvips.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bmpsize.sty
-Package: bmpsize 2016/05/16 v1.7 Extract size/resolution from bitmap files (HO)
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bmpsize-base.sty
-Package: bmpsize-base 2016/05/16 v1.7 Basic part of bmpsize (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
-Package: fp-basic 1996/05/13
-
-`Basic Fixed Point Arithmetic',  Version 1.2d (C) Michael Mehlich             
-\FP@xs=\count99
-\FP@xia=\count100
-\FP@xib=\count101
-\FP@xfa=\count102
-\FP@xfb=\count103
-\FP@rega=\count104
-\FP@regb=\count105
-\FP@regs=\count106
-\FP@times=\count107
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
-Package: fp-snap 1995/04/05
-
-`Fixed Point Snap Off',          Version 1.0a (C) Michael Mehlich             )
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bmpsize-dvipdfmx.def
-File: bmpsize-dvipdfmx.def 2016/05/16 v1.7 Graphics bitmap driver for dvipdfmx 
-(HO)
-\@bmpsize@count=\count108
-))
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count109
+\etb@tempcnta=\count99
 )
 (/usr/share/texlive/texmf-dist/tex/latex/dashrule/dashrule.sty
 Package: dashrule 2013/03/28 v1.3 Dashed rules
@@ -222,12 +193,12 @@ Package: dashrule 2013/03/28 v1.3 Dashed rules
 (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )
-\c@hdr@segments=\count110
+\c@hdr@segments=\count100
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@colwidth=\skip44
-\multirow@cntb=\count111
+\multirow@cntb=\count101
 \multirow@dima=\skip45
 \bigstrutjot=\dimen110
 )
@@ -249,13 +220,13 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@old@col=\dimen115
 \TX@target=\dimen116
 \TX@delta=\dimen117
-\TX@cols=\count112
+\TX@cols=\count102
 \TX@ftn=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count113
-\cp@tempcnt=\count114
+\c@cp@cntr=\count103
+\cp@tempcnt=\count104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -300,33 +271,32 @@ ex
 \pgf@yc=\dimen127
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count115
-\c@pgf@countb=\count116
-\c@pgf@countc=\count117
-\c@pgf@countd=\count118
+\c@pgf@counta=\count105
+\c@pgf@countb=\count106
+\c@pgf@countc=\count107
+\c@pgf@countd=\count108
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
-\pgf@sys@id@count=\count119
+\pgf@sys@id@count=\count109
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
-Driver file for pgf: pgfsys-dvipdfmx.def
+Driver file for pgf: pgfsys-dvips.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2019/02/02 v3.1.1 (3.1.1)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2019/02/02 v3.1.1 (3.1.1)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
-)
-\pgfsys@objnum=\count120
-))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postsc
+ript.def
+File: pgfsys-common-postscript.def 2019/02/02 v3.1.1 (3.1.1)
+\pgf@objectcount=\count110
+)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfsyssoftpath@smallbuffer@items=\count121
-\pgfsyssoftpath@bigbuffer@items=\count122
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -338,10 +308,6 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: dvips.def on input line 225.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
-)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
@@ -359,7 +325,7 @@ Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen128
-\pgfmath@count=\count123
+\pgfmath@count=\count113
 \pgfmath@box=\box31
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
@@ -383,7 +349,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count124
+\c@pgfmathroundto@lastzeros=\count114
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -421,7 +387,7 @@ File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count125
+\pgf@picture@serial@count=\count115
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -454,7 +420,7 @@ File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen152
-\pgf@sys@shading@range@num=\count126
+\pgf@sys@shading@range@num=\count116
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -514,7 +480,7 @@ Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@plot@mark@count=\count127
+\pgf@plot@mark@count=\count117
 \pgfplotmarksize=\dimen157
 )
 \tikz@lastx=\dimen158
@@ -527,18 +493,18 @@ File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikz@figbox@bg=\box38
 \tikz@tempbox=\box39
 \tikz@tempbox@bg=\box40
-\tikztreelevel=\count128
-\tikznumberofchildren=\count129
-\tikznumberofcurrentchild=\count130
-\tikz@fig@count=\count131
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfmatrixcurrentrow=\count132
-\pgfmatrixcurrentcolumn=\count133
-\pgf@matrix@numberofcolumns=\count134
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
 )
-\tikz@expandcount=\count135
+\tikz@expandcount=\count125
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -573,9 +539,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box42
 \tcb@lowerbox=\box43
 \tcb@phantombox=\box44
-\c@tcbbreakpart=\count136
-\c@tcblayer=\count137
-\tcolorbox@number=\count138
+\c@tcbbreakpart=\count126
+\c@tcblayer=\count127
+\tcolorbox@number=\count128
 \tcb@temp=\box45
 \tcb@temp=\box46
 \tcb@temp=\box47
@@ -594,8 +560,8 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 \enit@outerparindent=\dimen165
 \enit@toks=\toks35
 \enit@inbox=\box50
-\enit@count@id=\count139
-\enitdp@description=\count140
+\enit@count@id=\count129
+\enitdp@description=\count130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
 Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams fro
@@ -607,17 +573,17 @@ Package: expl3 2019-02-15 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-02-15 L3 programming layer (code)
-\c_max_int=\count141
-\l_tmpa_int=\count142
-\l_tmpb_int=\count143
-\g_tmpa_int=\count144
-\g_tmpb_int=\count145
-\g__kernel_prg_map_int=\count146
-\c_log_iow=\count147
-\l_iow_line_count_int=\count148
-\l__iow_line_target_int=\count149
-\l__iow_one_indent_int=\count150
-\l__iow_indent_int=\count151
+\c_max_int=\count131
+\l_tmpa_int=\count132
+\l_tmpb_int=\count133
+\g_tmpa_int=\count134
+\g_tmpb_int=\count135
+\g__kernel_prg_map_int=\count136
+\c_log_iow=\count137
+\l_iow_line_count_int=\count138
+\l__iow_line_target_int=\count139
+\l__iow_one_indent_int=\count140
+\l__iow_indent_int=\count141
 \c_zero_dim=\dimen166
 \c_max_dim=\dimen167
 \l_tmpa_dim=\dimen168
@@ -636,78 +602,78 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count152
-\l__intarray_loop_int=\count153
+\l_keys_choice_int=\count142
+\l__intarray_loop_int=\count143
 \c__intarray_sp_dim=\dimen172
-\g__intarray_font_int=\count154
-\c__fp_leading_shift_int=\count155
-\c__fp_middle_shift_int=\count156
-\c__fp_trailing_shift_int=\count157
-\c__fp_big_leading_shift_int=\count158
-\c__fp_big_middle_shift_int=\count159
-\c__fp_big_trailing_shift_int=\count160
-\c__fp_Bigg_leading_shift_int=\count161
-\c__fp_Bigg_middle_shift_int=\count162
-\c__fp_Bigg_trailing_shift_int=\count163
-\c__kernel_randint_max_int=\count164
-\g__fp_array_int=\count165
-\l__fp_array_loop_int=\count166
-\l__sort_length_int=\count167
-\l__sort_min_int=\count168
-\l__sort_top_int=\count169
-\l__sort_max_int=\count170
-\l__sort_true_max_int=\count171
-\l__sort_block_int=\count172
-\l__sort_begin_int=\count173
-\l__sort_end_int=\count174
-\l__sort_A_int=\count175
-\l__sort_B_int=\count176
-\l__sort_C_int=\count177
-\l__tl_analysis_normal_int=\count178
-\l__tl_analysis_index_int=\count179
-\l__tl_analysis_nesting_int=\count180
-\l__tl_analysis_type_int=\count181
-\l__regex_internal_a_int=\count182
-\l__regex_internal_b_int=\count183
-\l__regex_internal_c_int=\count184
-\l__regex_balance_int=\count185
-\l__regex_group_level_int=\count186
-\l__regex_mode_int=\count187
-\c__regex_cs_in_class_mode_int=\count188
-\c__regex_cs_mode_int=\count189
-\l__regex_catcodes_int=\count190
-\l__regex_default_catcodes_int=\count191
-\c__regex_catcode_D_int=\count192
-\c__regex_catcode_S_int=\count193
-\c__regex_catcode_L_int=\count194
-\c__regex_catcode_O_int=\count195
-\c__regex_catcode_A_int=\count196
-\c__regex_all_catcodes_int=\count197
-\l__regex_show_lines_int=\count198
-\l__regex_min_state_int=\count199
-\l__regex_max_state_int=\count266
-\l__regex_left_state_int=\count267
-\l__regex_right_state_int=\count268
-\l__regex_capturing_group_int=\count269
-\l__regex_min_pos_int=\count270
-\l__regex_max_pos_int=\count271
-\l__regex_curr_pos_int=\count272
-\l__regex_start_pos_int=\count273
-\l__regex_success_pos_int=\count274
-\l__regex_curr_char_int=\count275
-\l__regex_curr_catcode_int=\count276
-\l__regex_last_char_int=\count277
-\l__regex_case_changed_char_int=\count278
-\l__regex_curr_state_int=\count279
-\l__regex_step_int=\count280
-\l__regex_min_active_int=\count281
-\l__regex_max_active_int=\count282
-\l__regex_replacement_csnames_int=\count283
-\l__regex_match_count_int=\count284
-\l__regex_min_submatch_int=\count285
-\l__regex_submatch_int=\count286
-\l__regex_zeroth_submatch_int=\count287
-\g__regex_trace_regex_int=\count288
+\g__intarray_font_int=\count144
+\c__fp_leading_shift_int=\count145
+\c__fp_middle_shift_int=\count146
+\c__fp_trailing_shift_int=\count147
+\c__fp_big_leading_shift_int=\count148
+\c__fp_big_middle_shift_int=\count149
+\c__fp_big_trailing_shift_int=\count150
+\c__fp_Bigg_leading_shift_int=\count151
+\c__fp_Bigg_middle_shift_int=\count152
+\c__fp_Bigg_trailing_shift_int=\count153
+\c__kernel_randint_max_int=\count154
+\g__fp_array_int=\count155
+\l__fp_array_loop_int=\count156
+\l__sort_length_int=\count157
+\l__sort_min_int=\count158
+\l__sort_top_int=\count159
+\l__sort_max_int=\count160
+\l__sort_true_max_int=\count161
+\l__sort_block_int=\count162
+\l__sort_begin_int=\count163
+\l__sort_end_int=\count164
+\l__sort_A_int=\count165
+\l__sort_B_int=\count166
+\l__sort_C_int=\count167
+\l__tl_analysis_normal_int=\count168
+\l__tl_analysis_index_int=\count169
+\l__tl_analysis_nesting_int=\count170
+\l__tl_analysis_type_int=\count171
+\l__regex_internal_a_int=\count172
+\l__regex_internal_b_int=\count173
+\l__regex_internal_c_int=\count174
+\l__regex_balance_int=\count175
+\l__regex_group_level_int=\count176
+\l__regex_mode_int=\count177
+\c__regex_cs_in_class_mode_int=\count178
+\c__regex_cs_mode_int=\count179
+\l__regex_catcodes_int=\count180
+\l__regex_default_catcodes_int=\count181
+\c__regex_catcode_D_int=\count182
+\c__regex_catcode_S_int=\count183
+\c__regex_catcode_L_int=\count184
+\c__regex_catcode_O_int=\count185
+\c__regex_catcode_A_int=\count186
+\c__regex_all_catcodes_int=\count187
+\l__regex_show_lines_int=\count188
+\l__regex_min_state_int=\count189
+\l__regex_max_state_int=\count190
+\l__regex_left_state_int=\count191
+\l__regex_right_state_int=\count192
+\l__regex_capturing_group_int=\count193
+\l__regex_min_pos_int=\count194
+\l__regex_max_pos_int=\count195
+\l__regex_curr_pos_int=\count196
+\l__regex_start_pos_int=\count197
+\l__regex_success_pos_int=\count198
+\l__regex_curr_char_int=\count199
+\l__regex_curr_catcode_int=\count266
+\l__regex_last_char_int=\count267
+\l__regex_case_changed_char_int=\count268
+\l__regex_curr_state_int=\count269
+\l__regex_step_int=\count270
+\l__regex_min_active_int=\count271
+\l__regex_max_active_int=\count272
+\l__regex_replacement_csnames_int=\count273
+\l__regex_match_count_int=\count274
+\l__regex_min_submatch_int=\count275
+\l__regex_submatch_int=\count276
+\l__regex_zeroth_submatch_int=\count277
+\g__regex_trace_regex_int=\count278
 \c_empty_box=\box51
 \l_tmpa_box=\box52
 \l_tmpb_box=\box53
@@ -752,24 +718,24 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen195
 \l__coffin_scaled_total_height_dim=\dimen196
 \l__coffin_scaled_width_dim=\dimen197
-\l__seq_internal_a_int=\count289
-\l__seq_internal_b_int=\count290
+\l__seq_internal_a_int=\count279
+\l__seq_internal_b_int=\count280
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3dvips.def
 File: l3dvips.def 2019-02-15 v L3 Experimental driver: dvips
-\g__driver_pdf_object_int=\count291
+\g__driver_pdf_object_int=\count281
 ))
 Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count292
-\g__xparse_grabber_int=\count293
-\l__xparse_m_args_int=\count294
-\l__xparse_mandatory_args_int=\count295
-\l__xparse_v_nesting_int=\count296
+\l__xparse_current_arg_int=\count282
+\g__xparse_grabber_int=\count283
+\l__xparse_m_args_int=\count284
+\l__xparse_mandatory_args_int=\count285
+\l__xparse_v_nesting_int=\count286
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count297
-\decimalpart=\count298
+\integerpart=\count287
+\decimalpart=\count288
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
@@ -790,6 +756,11 @@ File: tikzlibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
 .tex
 File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+
+Package pgf Warning: Your graphic driver pgfsys-dvips.def does not support fadi
+ngs. This warning is given only once on input line 31.
+
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshadows.code.tex
@@ -842,33 +813,33 @@ atex and dvipdfmx
 (/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2019/02/21 v0.27 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count299
-\g_pbs_obj_int=\count300
+\g_pbs_page_int=\count289
+\g_pbs_obj_int=\count290
 )
 Package: ocgbase 2018/06/07 v0.14 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count301
+\g_ocgbase_nd_int=\count291
 )
-\g_ocgxii_page_int=\count302
-\g_ocgxii_widcount_int=\count303
+\g_ocgxii_page_int=\count292
+\g_ocgxii_widcount_int=\count293
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.sty
 (/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count304
-\d@lta=\count305
+\@@multicnt=\count294
+\d@lta=\count295
 \@delta=\dimen198
 \@@delta=\dimen199
-\@gridcnt=\count306
-\@joinkind=\count307
+\@gridcnt=\count296
+\@joinkind=\count297
 \@dotgap=\dimen256
 \@ddotgap=\dimen257
-\@x@diff=\count308
-\@y@diff=\count309
+\@x@diff=\count298
+\@y@diff=\count299
 \x@diff=\dimen258
 \y@diff=\dimen259
 \@dotbox=\box73
-\num@segments=\count310
-\num@segmentsi=\count311
+\num@segments=\count300
+\num@segmentsi=\count301
 \@datafile=\read4
 ) (/usr/share/texlive/texmf-dist/tex/latex/cntformats/cntformats.sty
 Package: cntformats 2014/07/20 v0.7 A different way to read counters. (CN)
@@ -882,9 +853,9 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks37
 \pgfopts@list@add@b@toks=\toks38
 )
-\c@cnltx@tmpa=\count312
-\c@cnltx@tmpb=\count313
-\c@cnltx@tmpc=\count314
+\c@cnltx@tmpa=\count302
+\c@cnltx@tmpb=\count303
+\c@cnltx@tmpc=\count304
 \cnltx@tmpa@length=\skip55
 \cnltx@tmpb@length=\skip56
 \cnltx@tmpc@length=\skip57
@@ -892,19 +863,19 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen260
-\l__xtemplate_tmp_int=\count315
+\l__xtemplate_tmp_int=\count305
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip58
 )
 Package: tasks 2016/08/13 v0.12 Horizontalcolumnedlists (CN)
-\l__tasks_depth_int=\count316
-\g__tasks_int=\count317
-\g__tasks_total_items_int=\count318
-\l__tasks_columns_int=\count319
-\l__tasks_rows_int=\count320
-\g__tasks_current_col_num_int=\count321
-\g__tasks_current_row_num_int=\count322
-\l__tasks_item_columns_int=\count323
+\l__tasks_depth_int=\count306
+\g__tasks_int=\count307
+\g__tasks_total_items_int=\count308
+\l__tasks_columns_int=\count309
+\l__tasks_rows_int=\count310
+\g__tasks_current_col_num_int=\count311
+\g__tasks_current_row_num_int=\count312
+\l__tasks_item_columns_int=\count313
 \l__tasks_item_indent_dim=\dimen261
 \l__tasks_item_default_indent_dim=\dimen262
 \l__tasks_item_width_dim=\dimen263
@@ -919,9 +890,9 @@ Package: tasks 2016/08/13 v0.12 Horizontalcolumnedlists (CN)
 \l__tasks_after_list_skip=\skip62
 \l__tasks_item_coffin=\box74
 \l__tasks_label_coffin=\box75
-\c@task=\count324
-\l__tasks_tmpa_int=\count325
-\l__tasks_tmpb_int=\count326
+\c@task=\count314
+\l__tasks_tmpa_int=\count315
+\l__tasks_tmpb_int=\count316
 \l__tasks_tmpa_coffin=\box76
 
 Package xtemplate Info: Declaring object type 'tasks' taking 3 argument(s) on
@@ -947,14 +918,14 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count327
+\c@abspage=\count317
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip63
-\c@mdf@globalstyle@cnt=\count328
+\c@mdf@globalstyle@cnt=\count318
 \mdf@skipabove@length=\skip64
 \mdf@skipbelow@length=\skip65
 \mdf@leftmargin@length=\skip66
@@ -1030,44 +1001,44 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip127
 \mdfsubtitleheight=\skip128
 \mdfsubsubtitleheight=\skip129
-\c@mdfcountframes=\count329
+\c@mdfcountframes=\count319
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count330
-\c@mdf@env@i=\count331
-\c@mdf@env@ii=\count332
-\c@mdf@zref@counter=\count333
+\mdf@envdepth=\count320
+\c@mdf@env@i=\count321
+\c@mdf@env@ii=\count322
+\c@mdf@zref@counter=\count323
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count334
-\calc@Bcount=\count335
+\calc@Acount=\count324
+\calc@Bcount=\count325
 \calc@Adimen=\dimen273
 \calc@Bdimen=\dimen274
 \calc@Askip=\skip130
 \calc@Bskip=\skip131
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count336
+\calc@Ccount=\count326
 \calc@Cskip=\skip132
 )
 (/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
 (/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
-\loi_cnt_foreach_nest=\count337
-\loi_nestcnt=\count338
+\loi_cnt_foreach_nest=\count327
+\loi_nestcnt=\count328
 )
 Package: listofitems 2018/11/01 v1.6 Grab items in lists using user-specified s
 ep char (CT)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count339
-\Gm@cntv=\count340
-\c@Gm@tempcnt=\count341
+\Gm@cnth=\count329
+\Gm@cntv=\count330
+\c@Gm@tempcnt=\count331
 \Gm@bindingoffset=\dimen275
 \Gm@wd@mp=\dimen276
 \Gm@odd@mp=\dimen277
@@ -1102,7 +1073,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks42
 \XKV@tempa@toks=\toks43
 )
-\XKV@depth=\count342
+\XKV@depth=\count332
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -1319,10 +1290,10 @@ File: pgflibraryshapes.multipart.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfnodepartsixbox=\box101
 \pgfnodepartfivebox=\box102
 )))
-\c@barcount=\count343
-\c@a=\count344
-\c@b=\count345
-\c@c=\count346
+\c@barcount=\count333
+\c@a=\count334
+\c@b=\count335
+\c@c=\count336
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
@@ -1330,16 +1301,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTright=\skip134
 \LTpre=\skip135
 \LTpost=\skip136
-\LTchunksize=\count347
+\LTchunksize=\count337
 \LTcapwidth=\dimen283
 \LT@head=\box103
 \LT@firsthead=\box104
 \LT@foot=\box105
 \LT@lastfoot=\box106
-\LT@cols=\count348
-\LT@rows=\count349
-\c@LT@tables=\count350
-\c@LT@chunks=\count351
+\LT@cols=\count338
+\LT@rows=\count339
+\c@LT@tables=\count340
+\c@LT@chunks=\count341
 \LT@p@ftn=\toks44
 ))
 
@@ -1387,7 +1358,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count352
+\c@section@level=\count342
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
@@ -1432,9 +1403,21 @@ LaTeX Info: Redefining \nameref on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-( FP-DIV ) ( FP-DIV )
-File: img/RWF_4808_4.jpg Graphic file (type bmp)
- <img/RWF_4808_4.jpg>
+
+! LaTeX Error: Cannot determine size of graphic in img/RWF_4808_4.jpg (no Bound
+ingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 	\img{img/RWF_4808_4.jpg}
+                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: img/RWF_4808_4.jpg Graphic file (type eps)
+<img/RWF_4808_4.jpg>
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 47.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
@@ -1630,12 +1613,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
  ) 
 Here is how much of TeX's memory you used:
- 36830 strings out of 492616
- 748330 string characters out of 6131415
- 925798 words of memory out of 5000000
- 40181 multiletter control sequences out of 15000+600000
+ 36453 strings out of 492616
+ 741859 string characters out of 6131415
+ 907093 words of memory out of 5000000
+ 39823 multiletter control sequences out of 15000+600000
  767396 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,87p,952b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,87p,997b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (2 pages, 102336 bytes).
+Output written on main.dvi (2 pages, 97676 bytes).

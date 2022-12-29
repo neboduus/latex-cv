@@ -19,7 +19,7 @@
 %----------------------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{./template/developercv}[2021/02/21 Developer CV class v2.0]
+\ProvidesClass{developercv}[2021/02/21 Developer CV class v2.0]
 
 \newif\if@gdpr
 \DeclareOption{gdpr}{\@gdprtrue}
@@ -46,9 +46,7 @@
 
 \usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
 
-\usepackage[dvipdfm]{graphicx}
-\usepackage{bmpsize}
-
+\RequirePackage{graphicx}
 \RequirePackage{etoolbox}
 \RequirePackage{dashrule}
 \RequirePackage{multirow,tabularx}
@@ -132,6 +130,7 @@
 	\colorlet{text}{blackishBlue}
 	\colorlet{body}{blackishBlue}
 	\colorlet{soft}{highlightGray!65!body}
+	
 	\colorlet{accent}{darkCalmBlue}
 	\colorlet{heading}{black}
 	\colorlet{emphasis}{calmBlue}
