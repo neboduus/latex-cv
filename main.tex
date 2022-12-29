@@ -1,0 +1,389 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/11/21)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Stijn Dejongh
+% Based on a template by Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt, green]{template/developercv} % Default font size, values from 8-12pt are recommended
+\PassOptionsToPackage{dvipsnames}{xcolor}
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\hspace{18pt}
+\begin{minipage}[t]{0.12\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{-.38cm}
+	%\img{img/RWF_4808.jpg}
+	\img{img/RWF_4808_4.jpg}
+\end{minipage}
+\begin{minipage}[t]{0.63\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{-.38cm}
+	\colorbox{accent}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Marian}}}}} % First name
+	\hspace{-2pt}
+	\colorbox{accent}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Alexandru}}}}}
+	\hspace{-2pt}
+	\colorbox{accent}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Diaconu}}}}} % Last name
+    \vspace{0.35cm}
+
+	{\LARGE Software Engineer \space\space \fcpipe \space\space Developer}\\ % Career or current job title
+
+	\vspace{-1.1em}
+	\hspace{1pt}{\ssmall \speciality{Cloud Computing Enthusiast} \space\bpipe\space \speciality{Software Designer} \space\bpipe\space \speciality{Self Critical} \space\bpipe\space \speciality{Growth Focused} }
+\end{minipage}
+\hspace{-5pt}
+\begin{minipage}[t]{0.22\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{0pt}
+	\color{darkCalmBlue}
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\ssmall
+	\linkedin{\href{https://linkedin.com/in/diac-marian}{/diac-marian}}\\
+
+	\vspace{-4pt}
+	\github{\href{https://github.com/neboduus}{/neboduus}}\\
+
+	\vspace{-4pt}	
+	\email{\href{mailto:marianalexandrudiaconu@gmail.com}{marianalexandrudiaconu@gmail.com}}\\ 
+
+	\vspace{-4pt}
+	\callme{+39 340 51 24 016}
+
+	\vspace{-5pt}
+\end{minipage}
+\hfill % Whitespace between
+%\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+%	\vspace{-\baselineskip} % Required for vertically aligning minipages
+%	\begin{barchart}{5.5}
+%		\baritem{JavaScript}{60}
+%		\baritem{PHP}{100}
+%		\baritem{SASS/LESS}{70}
+%		\baritem{Bootstrap}{70}
+%		\baritem{Git}{40}
+%		\baritem{LaTeX}{60}
+%	\end{barchart}
+%\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\vspace{0mm}
+\cvsect{About me}
+
+\vspace{2.1mm}
+{\small 
+\hspace{10pt} Freshly graduated software engineer with base experience in autonomously handling projects from research to deployment. Cloud computing enthusiast looking for a new realities to put my energies into. I am interested in backend engineering positions where I can give my contribution while learning new skills and improving existing ones. My aspiration is to become a skilled engineer with a specialization in automation. Ultimately I am also exploring DevOps and Infrastructure world, therefore I am keen to start a new journey in this area.}
+
+\vspace{2pt}
+\cvsect{Experience}
+\vspace{2.1mm}
+\begin{entrylist}
+	\entry
+	{09/2020 -- 04/2022 }
+	{\linkage{https://www.fraudio.com}{Fraudio, Amsterdam, NL}}
+	{Self Employed \space\cpipe\space Freelance}
+	{
+		\vspace{0.3mm}
+		\begin{minipage}[t]{0.75\textwidth}
+			\vspace{-\baselineskip}
+			
+            Supported Fraudio Fraud Detection System with engineering activities such as design and development of:\\
+            \vspace{-3mm}\\
+            \itemmarker ML model artifacts, which enabled a standardized way of ML model shipment.\\
+            \vspace{-3mm}\\
+            \itemmarker Configuration-based ML model selection, enabling Fraudio to deploy multiple ML Models on the same machine and select them based on custom properties.\\
+            \vspace{-3mm}\\
+            \itemmarker ML models deployment and alignment tests based on data scientists' expectations to ensure correctness in production.\\
+            \vspace{-3mm}\\
+            \itemmarker Procedures to deploy a huge quantity of data into in-memory databases to support production ML models with additional pre-computed features enabling more complex models to be supported.\\
+            \itemmarker New features for ML models serving applications such as authentication and authorization mechanisms easing customer on-boarding.\\
+            \vspace{-3mm}\\
+            \itemmarker Web APIs to collect and process data enabling ML models to be efficiently trained.\\
+            \vspace{-3mm}\\
+            \itemmarker API Gateway and Integration Documentation, making customer integration easier.\\
+            \vspace{-3mm}\\
+            \itemmarker DevOps automation through CI/CD.\\
+            \vspace{-3mm}\\
+            \itemmarker Incidents management and application debugging.\\
+            \vspace{-3mm}\\
+            
+		\end{minipage}
+
+		\techlist{Scala, Python, Play Framework, Spark, Databricks, Kubernetes, Airflow, Google Cloud, Gitlab}
+	}
+	{Software Engineer}
+	
+	\entry
+	{03/2020 -- 09/2020}
+	{\linkage{https://www.fraudio.com}{Fraudio, Amsterdam, NL}}
+	{Internship}
+	{
+		\vspace{0.3mm}
+		\begin{minipage}[t]{0.75\textwidth}
+			\vspace{-\baselineskip}
+			\itemmarker Researched innovative distributed serverless caching systems solutions applied to small objects management (company's use case) that could reduce hosting costs from 31x to 96x.\\
+			\itemmarker Developed my \linkage{https://www.linkedin.com/in/diac-marian/overlay/experience/1610333896/multiple-media-viewer/?treasuryMediaId=1635489335084}{master's dissertation} on such a thesis.\\
+			\vspace{-3mm}\\
+			\itemmarker Migrated Infinicache (a first of its kind distributed serverless caching system) from AWS Lambda to KNative.\\
+			\vspace{-3mm}
+		\end{minipage}
+
+		\techlist{Go, KNative, Kubernetes, AWS Lambda, Git}
+	}
+	{R\&D Software Engineer}
+	
+	\entry
+		{04/2018 -- 09/2018}
+		{\linkage{https://www.edutech.it/}{Edutech, Trento, IT}}
+		{Full-time}
+		{
+			\vspace{0.3mm}
+			\begin{minipage}[t]{0.75\textwidth}
+				\vspace{-\baselineskip}
+				\itemmarker Replaced Shareable Content Object Reference Model (SCORM) of Edutech Learning Management System (LMS) with Experience API (xAPI). This project helped the company to upgrade its LMS allowing them to be more competitive in the market.\\
+				\vspace{-3mm}\\
+				\itemmarker Designed and developed various utility software services necessary for internal and external procedures, managing most of the work independently but also coordinating with the team.\\
+				\vspace{-3mm}
+			\end{minipage}
+
+		\techlist{ASP.NET, Angular, Javascript, JQuery, AJAX}
+	   }
+		{Full-stack Developer}
+	\entry
+	% \pipe\tiny{discontinuous}
+	{06/2017 -- 04/2018}
+	{\linkage{https://www.fbk.eu/it/}{Fondazione Bruno Kessler, Trento, IT}}
+	{Internship}
+	{
+		\vspace{0.4mm}
+		\begin{minipage}[t]{0.75\textwidth} % 27.5% of the page width for the first row of icons
+			\vspace{-\baselineskip} \small
+			\vspace{-2mm}
+			\itemmarker Designed, developed, and tested CoachAI, a platform composed of a conversational assistant who helps people promote a healthy lifestyle and a related management platform that allows doctors to monitor their patients' progress based on data collected through the chatbot.\\
+			\vspace{-3mm}\\
+			\itemmarker Developed my \linkage{https://www.linkedin.com/in/diac-marian/overlay/1635489331295/single-media-viewer/}{bachelor thesis} on such a project.\\
+			\vspace{-3mm}\\
+			\itemmarker Participated in user-centered testing sessions and developed other conversational agents to support those activities allowing research project improvements.
+		\end{minipage}
+		
+		\techlist{Ruby on Rails, Javascript, JQuery, AJAX, Telegram Bot API}
+	}
+	{Full-stack Developer \space\cpipe\space Research Assistant}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\vspace{-4mm}
+\begin{minipage}[t]{0.32\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Education}
+
+	\vspace{1.2em}
+	\begin{minipage}[t]{\linewidth}
+		\vspace{-\baselineskip}
+		\vspace{0mm}
+		\small \textbf{M.Sc. in Computer Science} \hfill\vspace{0mm}\\ 
+		\footnotesize \textbf{Software and Service Architectures\vspace{0mm}}\\
+		\footnotesize \textcolor{accentbackground}{\linkage{https://www.unitn.it/}{University of Trento}}
+	\end{minipage}\hfill
+	\vspace{2em}
+	\begin{minipage}[t]{\linewidth}
+		\vspace{-\baselineskip}
+		\vspace{0mm}
+		\small \textbf{B.Sc. in Computer Science} \hfill\vspace{0mm}\\
+		\footnotesize \textbf{Computer Science and Technology\vspace{0mm}}\\
+		\footnotesize \textcolor{accentbackground}{\linkage{https://www.unitn.it/}{University of Trento}}
+	\end{minipage}\hfill
+	\vspace{1.2em}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.32\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Soft Skills}
+	
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCalendar}\hspace{0.5mm}  \small{\textbf{Organisational}} \\
+	\footnotesize Autonomous, adaptable, outside the box thinker.
+	
+	\vspace{2.5mm}
+	\textcolor{accentbackground}{\faComment}\hspace{0.5mm}
+	\small{\textbf{Communication}} \\ 
+	\footnotesize Effective communicator and team worker.
+	
+	\vspace{2.5mm}
+	\textcolor{accentbackground}{\faChild}\hspace{1mm} \small{\textbf{Aptitude}} \\ 
+	\footnotesize Positive, precise.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.28\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Languages}
+	
+	\vspace{1.2mm}
+	\small \textbf{Italian} \hfill {\ssmall Native \hspace{3pt}} \\
+	
+	\vspace{1.2mm}
+	\small \textbf{Romanian} \hfill {\ssmall Native \hspace{3pt}} \\
+	
+	\vspace{1.2mm}
+	\small \textbf{English} \hfill \hspace{-5pt}{\ssmall Fluent \hspace{3pt}} \\
+	
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%\clearpage
+%----------------------------------------------------------------------------------------
+%	SKILL SECTIONS
+%----------------------------------------------------------------------------------------
+\vspace{-4mm}
+\cvsect{Skills, Tools \amp Platforms}
+
+\vspace{3.2mm}
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Technical knowledge}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{Algorithms}{4}
+		\hspace{7mm} \cvskill{Distributed Systems}{4}
+		\hspace{7mm} \cvskill{Cloud Computing}{4}
+		\hspace{7mm} \cvskill{Software Engineering}{4}
+		\hspace{7mm} \cvskill{SCRUM Methodology}{4}
+		\hspace{7mm} \cvskill{Prototyping}{4}
+		\hspace{7mm} \cvskill{Software Architectures}{3}
+		\hspace{7mm} \cvskill{Machine Learning}{3}
+		\vspace{2.5mm}
+	\end{minipage}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Programming languages}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{SQL}{4}
+    	\hspace{7mm} \cvskill{Scala}{3}
+        \hspace{7mm} \cvskill{Python}{3}
+		\hspace{7mm} \cvskill{Bash}{3}
+        \hspace{7mm} \cvskill{Java}{3}
+        \hspace{7mm} \cvskill{Ruby}{3}
+        \hspace{7mm} \cvskill{C\#}{2}
+		\hspace{7mm} \cvskill{Javascript \pipe Typescript}{2}
+		\vspace{2.5mm}
+	\end{minipage}
+	\vspace{2mm}
+\end{minipage}
+\vspace{3.2mm}
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Markup Languages}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{HTML}{4}
+		\hspace{7mm} \cvskill{XML}{4}
+		\hspace{7mm} \cvskill{CSS}{3}
+		\hspace{7mm} \cvskill{Latex}{3}
+		\vspace{2.5mm}
+	\end{minipage}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Databases}
+	\\
+	\begin{minipage}[t]{\textwidth}
+    	\hspace{7mm} \cvskill{Redis}{3}
+		\hspace{7mm} \cvskill{Postgresql}{3}
+        \hspace{7mm} \cvskill{SQLite}{3}
+        \hspace{7mm} \cvskill{Kafka}{1}
+		\vspace{2.5mm}
+	\end{minipage}
+	\vspace{2mm}
+\end{minipage}
+\vspace{3.2mm}
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Frameworks}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{Play Framework for Scala}{4}
+		\hspace{7mm} \cvskill{Ruby on Rails}{4}
+	    \hspace{7mm} \cvskill{ASP.NET}{2}
+		\hspace{7mm} \cvskill{Angular}{2}
+		\hspace{7mm} \cvskill{Java Servlets with JSP}{2}
+	    \hspace{7mm} \cvskill{Node.js with Express}{2}
+		\vspace{2.5mm}
+	\end{minipage}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Platforms and server technologies}
+	\\
+	\begin{minipage}[t]{\textwidth}
+    	\hspace{7mm} \cvskill{Docker}{4}
+		\hspace{7mm} \cvskill{Linux}{4}
+        \hspace{7mm} \cvskill{Kubernetes}{3}
+        \hspace{7mm} \cvskill{Spark}{3}
+	    \hspace{7mm} \cvskill{Airflow}{2}
+		\vspace{2.5mm}
+	\end{minipage}
+	\vspace{2mm}
+\end{minipage}
+\vspace{3.2mm}
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Development Tools}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{Git}{4}
+		\hspace{7mm} \cvskill{Gitlab CI/CD Pipelines}{3}
+	    \hspace{7mm} \cvskill{SBT}{3}
+		\vspace{2.5mm}
+	\end{minipage}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Cloud Services}
+	\\
+	\begin{minipage}[t]{\textwidth}
+    	\hspace{7mm} \cvskill{Google Cloud Provider}{3}
+    	\hspace{7mm} \cvskill{Terraform}{1}
+		\vspace{2.5mm}
+	\end{minipage}
+	\vspace{2mm}
+\end{minipage}
+
+{\vspace{-7mm}\small 
+\hspace{5pt} I authorize the processing of my personal data present in the curriculum vitae pursuant to the Italian Legislative Decree 30 June 2003, n. 196 and of the GDPR (EU Regulation 2016/679).}
+\end{document}
