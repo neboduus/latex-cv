@@ -325,9 +325,11 @@
 }
 
 
-\newcommand{\techit}[1]{\tagbox{\tiny{#1}}}
+\newcommand{\techit}[1]{\tagbox{\normalsize{#1}}}
 \newcommand{\techln}[2]{\techit{\href{#1}{#2}}}
 
+
+\newcounter{mytechcount} % Define a custom counter
 \newcommand{\techlist}[1]{
 	\vspace{5.5mm}
 	\begin{minipage}[t]{0.10\textwidth}
@@ -335,13 +337,20 @@
 		\vspace{0mm}
 		\scriptsize{\textcolor{soft!55!darkCalmBlue}{Technologies used:}}
 	\end{minipage}
-	\begin{minipage}[t]{0.85\textwidth}
-	\vspace{-\baselineskip}
-	\vspace{0.5mm}
-	\hspace{-4.5mm}
-	\foreach \t in {#1} {
-		\techit{\t} \hspace{-2.8mm}
-	}
+	\begin{minipage}[t]{1.5\textwidth}
+		\vspace{-\baselineskip}
+		\vspace{0.10mm}
+		\hspace{-3.3mm}
+		\setcounter{mytechcount}{0} % Initialize the counter
+		\foreach \t in {#1} {
+			\ifnum\value{mytechcount}<6
+			\techit{\t}\hspace{-4.5mm} % Display the tech, adjust spacing as needed
+			\stepcounter{mytechcount}
+			\else
+			\\
+			\setcounter{mytechcount}{0} % Reset the counter for the next row
+			\fi
+		}
 	\end{minipage}
 	\vspace{-8mm}
 }
