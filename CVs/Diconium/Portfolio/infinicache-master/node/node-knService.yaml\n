@@ -1,0 +1,10 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: infinicache-node-4
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+      - image: docker.io/neboduus/infinicache-node

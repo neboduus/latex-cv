@@ -1,0 +1,12 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: infinicache-node-19
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/serverless-research-274508/infinicache-node
+          ports:
+            - containerPort: 8080
